@@ -1,7 +1,7 @@
 
 {
     "dependencies": {
-      "hugo": "^0.80.0" //revisar version hugo
+      "hugo": "^0.80.0"  
     },
     "scripts": {
       "build": "hugo"
