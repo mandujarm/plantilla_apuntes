@@ -2,3 +2,7 @@ baseURL = '#'
 languageCode = 'gl-es'
 title = 'SXE'
 theme = "relearn"
+
+[params]
+  # Change default color scheme with a variant one.
+  themeVariant = "blue"
