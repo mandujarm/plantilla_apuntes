@@ -1,0 +1,35 @@
+name: Deploy Hugo Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Cambia 'main' á rama que uses para desenvolver
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.17'  # revisar 
+
+      - name: Install Hugo
+        run: |
+          wget https://github.com/goharbor/hugo/releases/download/v0.108.0/hugo_0.108.0_Linux-64bit.tar.gz
+          tar -xzf hugo_0.108.0_Linux-64bit.tar.gz
+          sudo mv hugo /usr/local/bin/
+
+      - name: Build the site
+        run: hugo
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages  # revisar
