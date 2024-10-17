@@ -1,7 +1,7 @@
 
 {
     "dependencies": {
-      "hugo": "^0.80.0"  
+      "hugo": "^0.100"   
     },
     "scripts": {
       "build": "hugo"
