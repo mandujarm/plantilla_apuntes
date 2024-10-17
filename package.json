@@ -1,4 +1,8 @@
+
 {
+    "dependencies": {
+      "hugo": "^0.80.0" //revisar version hugo
+    },
     "scripts": {
       "build": "hugo"
     }
