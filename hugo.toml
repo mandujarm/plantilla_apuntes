@@ -1,5 +1,5 @@
 baseURL = '#'
-languageCode = 'gl-es'
+languageCode = 'es'
 title = 'SXE'
 theme = "relearn"
 

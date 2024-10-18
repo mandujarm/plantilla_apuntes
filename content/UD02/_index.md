@@ -2,6 +2,7 @@
 title: "Unidad 02"
 date: 2024-02-17
 description: "UD02: Esta unidad está oculta"
+draft = true
 ---
 Para a mellor aprendizaxe de JS recoméndase os seguintes recursos:
 * [MDM Web Doc: Guía de JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide)
