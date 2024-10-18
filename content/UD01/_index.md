@@ -1,5 +1,5 @@
 ---
-title: "Unidade 01"
+title: "Unidad 01"
 date: 2024-02-17
 description: "UD01: Estructuras e linguaxe de JS"
 ---

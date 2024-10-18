@@ -1,5 +1,5 @@
 ---
-title: "Unidade 00"
+title: "Unidad 00"
 date: 2024-02-17
 description: "UD00: Introducción a JS"
 ---
